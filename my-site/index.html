@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>История ЭВМ</title>
 </head>
 <body>
+    <a href="#genetarion">Поколения ЭВМ</a>
+    <!-- Блочные и строчные теги в HTML. Теги div и span -->
     <div>
         <h2>История ЭВМ</h2>
         <p>
             Первые <span>электронные вычислительные машины</span> появились в середине XX века
         </p>
     </div>
-
     <div>
         <p style="background-color: plum;">
             Тег <span style="background-color: peachpuff;">span</span> используется для выделения части текста внутри строки.
@@ -21,6 +22,7 @@
 
     <hr/>
 
+    <!-- Теги форматирования текста -->
     <div>
         <b>ЭВМ</b> — это электронная вычислительная машина.
         <p><strong>Важно:</strong> первые ЭВМ занимали целые помещения.</p>
@@ -36,6 +38,57 @@
         <hr/>
         Пример кода:
         <p><code>&lt;h1&gt;История ЭВМ&lt;/h1;&gt;</code></p>
+    </div>
+
+    <hr/>
+
+    <!-- Абсолютные и относительные ссылки в HTML. Якорные ссылки. mailto, tel, download -->
+    <div>
+        <a href="info.html">
+            <button>Перейти к истории ЭВМ</button>
+        </a>
+     
+        <hr/>
+     
+        <h2 id="generation">Поколения ЭВМ</h2>
+        <p>Описание поколений электроных вычислительных машин.</p>
+
+        <hr/>
+
+        <p>
+            <a href="../README.md" download="">
+                Скачать описание лаборатоной
+            </a>
+        </p>
+        <p>
+            <a href="mailto:nika_gvozdeva0.0@mail.ru">
+                Написать письмо
+            </a>
+        </p>
+
+        <p>
+            <a href="tel:+88005553535">
+                Позвонить
+            </a>
+        </p>
+    </div> 
+
+    <hr/>
+
+    <!-- HTML изображения. Относительные и абсолютные пути -->
+    <div>
+        <p>
+            <img src="../img/computer_generation_1.jpg" alt="ЭВМ ENIAC" width="300" height="200">
+        </p>
+        <p>  
+            <img src="../img/computer_generation_2.jpg" alt="ENIAC" width="300"> <!-- ссылка была длинная поэтому не поставил -->
+        </p>
+        <p>
+            <img src="../img/computer_generation_3.jpg" alt="Старая вычислительная машина" width="400" loading="lazy">
+        </p>
+        <p>
+            <img src="../img/computer_generation_4.jpg" alt="ЭВМ 4 поколения" width="300">
+        </p>
     </div>
 </body>
 </html>
