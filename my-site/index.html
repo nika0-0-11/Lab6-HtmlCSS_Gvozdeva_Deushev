@@ -90,5 +90,71 @@
             <img src="../img/computer_generation_4.jpg" alt="ЭВМ 4 поколения" width="300">
         </p>
     </div>
+
+    <hr/>
+
+    <!-- Цитаты в HTML — теги blockquote, cite. Атрибут cite. Источник цитаты в HTML -->
+    <div>
+        <p>
+            <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">
+                <q>Электронная вычислительная машина - комплекс технических средсвт,
+                предназначенных для автоматической обработки информации.</q>
+            </blockquote>
+            <cite>Источник: Википедия</cite>
+        </p>
+
+        <p>
+            По словам учёных:
+            <q>развитие вычислительной техники изменило ход истории</q>.
+        </p>
+    </div>
+
+    <hr/>
+
+    <!-- Медиаконтент в HTML — видео, аудио, фреймы. Теги video, audio, iframe. Тег source -->
+    <div>
+        <p>
+            <video controls width="400">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/>
+                Ваш браузер не поддерживает видео.
+            </video>
+        </p>
+
+        <p>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg"/>
+                Ваш браузер не поддерживает аудио.
+            </audio>
+        </p>
+
+        <p>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=lWn3NvMZnZ1CcRhp"
+                title="История ЭВМ"
+                allowfullscreen>
+            </iframe>
+        </p>
+    </div>
+
+    <hr/>
+
+    <!-- HTML тег input и его вариации. Атрибут type, значения tel, email, password, url, search и другие -->
+    <div>
+        <form>
+            <label>Телефон: <input type="tel" placeholder="+7 (___) ___-__-__"/></label>
+            <br/><br/>
+            <label>Email: <input type="email" placeholder="example@mail.com"/></label>
+            <br/><br/>
+            <label>Пароль: <input type="password"/></label>
+            <br/><br/>
+            <label>Сайт: <input type="url" placeholder="https://example.com"/></label>
+            <br/><br/>
+            <label>Поиск: <input type="search" placeholder="Поиск..."/></label>
+            <br/><br/>
+            <input type="submit" value="Отправить"/>
+        </form>
+    </div>
 </body>
 </html>
